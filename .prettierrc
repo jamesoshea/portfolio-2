@@ -1,0 +1,8 @@
+{
+  "printWidth": 100,
+  "parser": "flow",
+  "useTabs": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "semi": true
+}

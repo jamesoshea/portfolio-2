@@ -2,7 +2,7 @@
   <div>
     <div id="about" class="ff-card padding-small text-justify margin-top-tiny">
       <h4>Projects</h4>
-        <table class="ff-table full-width padding-tiny bordered-rows">
+        <table class="ff-table full-width padding-tiny">
           <tbody>
             <tr>
               <td><a href="https://github.com/3YOURMIND/fire-pr">Fire-PR</a></td>

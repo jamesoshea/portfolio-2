@@ -4,6 +4,7 @@
       <About />
       <Projects />
       <Links />
+      <p class="text-center text-small">Built with Vue.js and Nuxt.js</p>
   </div>
 </template>
 

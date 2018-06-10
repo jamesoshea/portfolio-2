@@ -1,17 +1,20 @@
 <template>
   <div>
-    <p id="about" class="ff-card padding-small">
-      I'm a self taught developer looking to keep learning and gain experience
-      with different tech stacks in a professional environment. My main area of
-      expertise is in front-end SPA development using Vue.js, but in my current
-      employment, I have also contributed significantly to our Python/Django
-      based back-end, and always enjoy the opportunity to pick up new languages
-      and technologies.
-      <br />
-      <br />
-      In my free time, I enjoy dabbling with Go,
-      and also a bit of Machine Learning.
-    </p>
+    <div id="about" class="ff-card padding-small text-justify margin-top-tiny">
+      <h4>About</h4>
+      <p class="margin-bottom-tiny">
+        I'm a self taught developer looking to keep learning and gain experience
+        with different tech stacks in a professional environment. My main area of
+        expertise is in front-end SPA development using Vue.js, but in my current
+        employment, I have also contributed significantly to our Python/Django
+        based back-end, and always enjoy the opportunity to pick up new languages
+        and technologies.
+        <br />
+        <br />
+        In my free time, I enjoy dabbling with Go,
+        and also a bit of Machine Learning.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -22,4 +25,7 @@ export default {
 </script>
 
 <style>
+.text-justify {
+	text-align: justify;
+}
 </style>

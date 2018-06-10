@@ -1,7 +1,7 @@
 <template>
   <div class="portion one-third">
     <div class="card-content text-center">
-      <a :href="`#`">
+      <a :href="linkUrl" target="blank">
         <slot></slot>
       </a>
     </div>
@@ -10,7 +10,13 @@
 
 <script>
 export default {
-	name: "links",
+	name: "LinkCard",
+	props: {
+		linkUrl: {
+			type: String,
+			required: true,
+		},
+	},
 };
 </script>
 

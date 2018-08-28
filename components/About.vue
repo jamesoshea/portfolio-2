@@ -1,10 +1,10 @@
 <template>
   <div>
     <div id="about" class="ff-card padding-small text-justify margin-top-tiny">
-      <h4>About</h4>
+      <h4 class="margin-bottom-small">About</h4>
       <p class="margin-bottom-tiny">
-        I'm a self taught developer looking to keep learning and gain experience
-        with different tech stacks in a professional environment. My main area of
+        I'm a self taught developer looking to keep learning and gaining experience
+        with different tech stacks and methodolgies. My main area of
         expertise is in front-end SPA development using Vue.js, but in my current
         employment, I have also contributed significantly to our Python/Django
         based back-end, and always enjoy the opportunity to pick up new languages

@@ -1,35 +1,37 @@
 <template>
   <div>
     <div id="about" class="ff-card padding-small text-justify margin-top-tiny">
-      <h4>Projects</h4>
+      <h4 class="margin-bottom-small">Projects</h4>
       <div class="row">
         <div class="portion one-fourth">
-          <a href="https://github.com/3YOURMIND/fire-pr">Fire-PR</a>
-        </div>
-        <div class="portion two-fourths">
-          A tool we created at 3YOURMIND to standardise Pull Requests by
-          providing a standard template, and auto filling it using a
-          chrome extension written in Vue.
+          <a href="https://momentumm.now.sh">Momentumm- Demo</a><br />
+          <a href="https://github.com/jamesoshea/momentumm">Momentumm- Code</a>
         </div>
         <div class="portion one-fourth">
-          November 2017<br />
-          -<br />
-          Present<br />
+          <strong>
+            August 2018 - Present
+          </strong>
+        </div>
+        <div class="portion two-fourths">
+          A streak/habit tracking app with Telegram reminders built in.
+          Still a work in progress, and a great learning experience throughout
+          the tech stack. Built and deployed using Vue, Express, MongoDB, Docker,
+          Now and TravisCI.
         </div>
       </div>
       <div class="row">
         <div class="portion one-fourth">
-          <a href="https://github.com/jamesoshea/touchemin">Touchemin</a>
-        </div>
-        <div class="portion two-fourths">
-          A Vue based PWA which uses Tone.js to play chords based on touch
-          screen interactions. Implements a filter and settings are coming
-          soon.
+          <a href="https://github.com/3YOURMIND/fire-pr">Fire-PR</a>
         </div>
         <div class="portion one-fourth">
-          April 2018<br />
-          -<br />
-          Present<br />
+          <strong>
+            November 2017 - Present
+          </strong>
+        </div>
+        <div class="portion two-fourths">
+          A tool we created at 3YOURMIND to standardise Pull Requests by
+          providing a template, which can be auto-completed using a
+          chrome extension written with Vue.
         </div>
       </div>
     </div>

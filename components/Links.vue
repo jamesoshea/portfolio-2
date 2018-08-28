@@ -5,7 +5,7 @@
       <LinkCard :linkUrl="'http://github.com/jamesoshea'">
         <GithubSVG />
       </LinkCard>
-      <LinkCard :linkUrl="'mailto:j@mesoshea.com'">
+      <LinkCard :linkUrl="'mailto:jamesoshea89@hotmail.com'">
         <MailSVG />
       </LinkCard>
       <LinkCard :linkUrl="'https://medium.com/@james_oshea'">
